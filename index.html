@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#071016" />
+    <meta name="description" content="Beta-1 Resmi Site — Cauterizers birim portalı" />
+    <title>Beta-1 Resmi Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="is-loading">
+    <div class="noise" aria-hidden="true"></div>
+
+    <section id="loader" class="loader" aria-label="Sistem yükleniyor">
+      <div class="loader__orb loader__orb--one"></div>
+      <div class="loader__orb loader__orb--two"></div>
+      <div class="loader__frame">
+        <div class="loader__meta"><span>SECURE GATEWAY</span><span id="loadPercent">000%</span></div>
+        <div class="loader__mark-wrap">
+          <img class="loader__mark" src="/assets/beta1-cauterizers-logo.webp" alt="Beta-1 Cauterizers arması" />
+          <span class="loader__pulse"></span>
+        </div>
+        <p class="loader__unit">MOBILE TASK FORCE <b>BETA-1</b></p>
+        <div class="loader__bar" aria-hidden="true"><span id="loadBar"></span></div>
+        <p id="loadState" class="loader__state">DOSYA KİLİDİ ÇÖZÜLÜYOR</p>
+      </div>
+    </section>
+
+    <div id="paperStorm" class="paper-storm" aria-hidden="true"></div>
+
+    <div id="app" class="app" aria-hidden="true">
+      <div class="ambient ambient--cyan" aria-hidden="true"></div>
+      <div class="ambient ambient--red" aria-hidden="true"></div>
+
+      <aside id="sidebar" class="sidebar" aria-label="Birim menüsü">
+        <div class="sidebar__top">
+          <a href="#home" class="brand" data-target="home" aria-label="Beta-1 ana sayfa">
+            <span class="brand__sigil"><img src="/assets/beta1-cauterizers-logo.webp" alt="" /></span>
+            <span class="brand__copy"><b>BETA-1</b><small>RESMİ SİTE</small></span>
+          </a>
+          <button id="menuToggle" class="icon-btn menu-toggle" type="button" aria-label="Menüyü daralt" aria-expanded="true">
+            <span></span><span></span>
+          </button>
+        </div>
+
+        <div class="sidebar__line"></div>
+        <p class="sidebar__eyebrow">SEKTÖR MENÜSÜ <span>05</span></p>
+        <nav class="menu" aria-label="Sayfa bölümleri">
+          <a class="menu__item is-active" href="#home" data-target="home"><span class="menu__index">01</span><span class="menu__label">Ana Sayfa</span><span class="menu__arrow">↗</span></a>
+          <a class="menu__item" href="#staff" data-target="staff"><span class="menu__index">02</span><span class="menu__label">Yönetim Kadrosu</span><span class="menu__arrow">↗</span></a>
+          <a class="menu__item" href="#allies" data-target="allies"><span class="menu__index">03</span><span class="menu__label">Anlaşmalı Sunucular</span><span class="menu__arrow">↗</span></a>
+          <a class="menu__item" href="#apply" data-target="apply"><span class="menu__index">04</span><span class="menu__label">Başvuru Yap!</span><span class="menu__arrow">↗</span></a>
+          <a class="menu__item" href="#unit" data-target="unit"><span class="menu__index">05</span><span class="menu__label">Birimimizi daha yakından tanı</span><span class="menu__arrow">↗</span></a>
+        </nav>
+
+        <div class="sidebar__bottom">
+          <div class="status-card" data-status="active">
+            <div><small>SİSTEM DURUMU</small><b id="statusText"><i></i> AKTİF</b></div>
+            <span class="status-card__code">B1-0</span>
+          </div>
+          <a class="discord-btn" href="https://discord.gg/w7Vt62RTU" target="_blank" rel="noopener noreferrer"><span class="discord-btn__dot"></span><span>Discord'a katıl</span><b>↗</b></a>
+          <p class="sidebar__foot">CLEARANCE: LEVEL 3<br />M.T.F. INTERNAL NETWORK</p>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="mobile-header">
+          <button id="mobileMenu" class="mobile-header__menu" type="button" aria-label="Menüyü aç" aria-controls="sidebar" aria-expanded="false"><span></span><span></span><span></span></button>
+          <div class="mobile-header__brand">BETA-1 <i>//</i> RESMİ SİTE</div>
+          <span class="mobile-header__live"><i></i> AKTİF</span>
+        </header>
+
+        <section id="home" class="hero section-anchor">
+          <div class="hero__grid" aria-hidden="true"></div>
+          <div class="hero__code hero__code--one">C-██-032<br />RESTRICTED</div>
+          <div class="hero__code hero__code--two">01 / 05<br />MTF ARCHIVE</div>
+          <div class="hero__content reveal">
+            <div class="eyebrow"><span class="eyebrow__line"></span><span>MOBILE TASK FORCE / BETA-1</span></div>
+            <h1 class="hero-title">ARAMIZDA HAİN,<br /><span>OLMAYAN BİR</span><br /><span>PERSONELDİR.</span></h1>
+            <p class="hero__lede">Beta-1, Vakıf personeli arasındaki olası düşman sızmalarını ve diğer İlgi Gruplarına bilgi sızıntılarını araştıran <mark>yüksek gizlilikli</mark> bir görev gücüdür.</p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="#unit" data-target="unit"><span>Dosyayı İncele</span><b>↘</b></a>
+              <a class="button button--ghost" href="https://discord.gg/w7Vt62RTU" target="_blank" rel="noopener noreferrer"><span>Discord'a katıl</span><b>↗</b></a>
+            </div>
+            <div class="hero__facts" aria-label="Birim özet verileri">
+              <div><small>GÖREV ODAĞI</small><b>İÇ GÜVENLİK</b></div>
+              <div><small>ERİŞİM</small><b>GİZLİ</b></div>
+              <div><small>DURUM</small><b class="live-text"><i></i> AKTİF</b></div>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal reveal--late">
+            <div class="scan"></div>
+            <div class="hero__visual-top"><span>FIELD FEED / 22:45:18</span><span>ENCRYPTED <i></i></span></div>
+            <img src="/assets/beta1-field-operative.png" alt="Kullanıcının sağladığı Beta-1 saha operatörü görseli" />
+            <div class="hero__visual-caption"><span>SAHA KAYDI</span><b>BETA-1 / OPERATÖR</b><span class="caption-stamp">EYES ONLY</span></div>
+            <div class="target target--one"></div><div class="target target--two"></div>
+          </div>
+          <a href="#staff" data-target="staff" class="scroll-cue"><span>AKIŞA DEVAM</span><i></i></a>
+        </section>
+
+        <section class="briefing section-anchor" aria-label="Birim özeti">
+          <div class="section-number reveal">01 / <span>BRIEFING</span></div>
+          <div class="briefing__grid">
+            <div class="briefing__title reveal"><div class="eyebrow"><span class="eyebrow__line"></span><span>DOSYA ÖZETİ</span></div><h2>SIZINTIYI<br />TESPİT ET.</h2></div>
+            <div class="briefing__copy reveal reveal--late"><p>Resmî SCP Wiki görev tanımına göre MTF Beta-1 “Cauterizers”, Vakıf personeli içine düşman sızdığı şüphesi taşıyan vakalarla ve diğer İlgi Gruplarına olası bilgi sızıntılarıyla ilgilenen son derece gizli bir birimdir. Bu nedenle bu sayfa, anomalileri temizleme görevini Beta-1’in ana uzmanlığı gibi sunmaz.</p><p class="redacted-line">Görev gücünün kimlik ve operasyon ayrıntıları <span>██████████</span> erişim düzeyinde tutulur. <a href="https://scp-wiki.wikidot.com/task-forces" target="_blank" rel="noopener noreferrer">SCP Wiki görev tanımı ↗</a></p></div>
+          </div>
+          <div class="intel-strip reveal">
+            <div><span class="intel-strip__kicker">BİRİM ARMASI</span><img src="/assets/beta1-cauterizers-logo.webp" alt="Beta-1 Cauterizers arması" /></div>
+            <div class="intel-strip__quote"><span>“</span><p>Önce sızıntıyı bul.<br />Sonra erişimi sınırla.</p><small>— BETA-1 DOSYA NOTU</small></div>
+            <div class="intel-strip__decal"><img src="/assets/cauterizers-eye-decal.jpg" alt="Cauterizers göz sembolü rozeti" /><small>PATCH REF. / B1-EYE</small></div>
+          </div>
+        </section>
+
+        <section id="staff" class="staff section-anchor">
+          <div class="section-head reveal"><div><div class="eyebrow"><span class="eyebrow__line"></span><span>YÖNETİM KADROSU</span></div><h2>ERİŞİMİ OLANLAR.<br /><em>ÜÇ KAYIT.</em></h2></div><p>Bir vakıf kaydını açmak için personel kartına bas.</p></div>
+          <div class="staff__grid management-grid">
+            <article class="role-card management-card reveal"><div class="role-card__top"><span>01 / KOMUTA</span><span class="role-card__seal">B1</span></div><h3>BİRİM ŞEFİ</h3><p>Beta-1 birim yönetimi ve görev koordinasyonu.</p><div class="role-card__redact">KULLANICI: <b>Berke_9801</b></div><button class="personnel-open" type="button" data-member="berke">Vakıf kaydını aç <span>↗</span></button></article>
+            <article class="role-card role-card--accent management-card reveal reveal--late"><div class="role-card__top"><span>02 / SAHA</span><span class="role-card__seal">B1</span></div><h3>SAHA ŞEFİ</h3><p>Saha ekibi düzeni ve operasyon içi koordinasyon.</p><div class="role-card__redact">KULLANICI: <b>Sadecetanjiro47</b></div><button class="personnel-open" type="button" data-member="sadecetanjiro">Vakıf kaydını aç <span>↗</span></button></article>
+            <article class="role-card management-card reveal"><div class="role-card__top"><span>03 / SAHA</span><span class="role-card__seal">B1</span></div><h3>SAHA ŞEFİ</h3><p>Saha ekibi düzeni ve operasyon içi koordinasyon.</p><div class="role-card__redact">KULLANICI: <b>Benpaigo</b></div><button class="personnel-open" type="button" data-member="benpaigo">Vakıf kaydını aç <span>↗</span></button></article>
+          </div>
+        </section>
+
+        <section id="allies" class="allies section-anchor">
+          <div class="section-head reveal"><div><div class="eyebrow"><span class="eyebrow__line"></span><span>AĞ / 03</span></div><h2>ANLAŞMALI<br /><em>SUNUCULAR.</em></h2></div><p>İletişim kanalları için ilgili Discord sunucusunu aç.</p></div>
+          <div class="allies__grid">
+            <a class="server-card reveal" href="https://discord.gg/hKWbNb7B4" target="_blank" rel="noopener noreferrer"><span class="server-card__meta">ANLAŞMALI SUNUCU / O-45</span><h3>OMEGA-45<br /><em>“STREET SAMURAI”</em></h3><span class="server-card__action">Discord sunucusuna git <b>↗</b></span></a>
+            <a class="server-card server-card--hostile reveal reveal--late" href="https://discord.gg/vf9ZGR6QJ" target="_blank" rel="noopener noreferrer"><span class="server-card__meta">DÜŞMAN GRUPLAR</span><h3>STERNRITTER<br /><em>GANG</em></h3><span class="server-card__action">Discord kaydını aç <b>↗</b></span></a>
+          </div>
+        </section>
+
+        <section id="apply" class="application section-anchor">
+          <div class="application__side reveal"><div class="eyebrow"><span class="eyebrow__line"></span><span>BAŞVURU TERMINALİ</span></div><h2>HAT AÇIK.<br /><em>HAZIR MISIN?</em></h2><p>Başvuru öncesinde birim disiplinini ve rol kurallarını incele. Başvurun Discord başvuru kanalına iletilir.</p><div class="application__notice"><span>!</span><p>Gönderdiğin tüm cevapları, bu Discord kanalına erişimi olan üyeler görebilir: <a href="https://discord.com/channels/1553820171737628873/1555688585317982218" target="_blank" rel="noopener noreferrer">Başvuru kanalı ↗</a></p></div></div>
+          <form id="applicationForm" class="application-form reveal reveal--late" novalidate>
+            <div class="form__label"><span>ERİŞİM FORMU</span><b>FORM / B1-14</b></div>
+            <div class="form-grid"><label><span>01 — Roblox Adın?</span><input name="roblox" type="text" maxlength="64" placeholder="Kullanıcı adın" required /></label><label><span>02 — Discord Adın?</span><input name="discord" type="text" maxlength="100" placeholder="kullaniciadi" required /></label></div>
+            <label><span>03 — FearRP, MetaGaming, PowerRP, New Life Rule, RDM nedir?</span><textarea name="terms" rows="4" maxlength="900" placeholder="Kısa ve net şekilde açıkla..." required></textarea></label>
+            <label><span>04 — Beta-1 hakkında ne biliyorsun?</span><textarea name="knowledge" rows="4" maxlength="900" placeholder="Birim ve görev anlayışı hakkında..." required></textarea></label>
+            <label><span>05 — Daha önce görev yaptığın yerler?</span><textarea name="past_places" rows="3" maxlength="900" placeholder="Daha önce görev aldığın Roblox/SCP toplulukları..." required></textarea></label>
+            <div class="form-grid"><label><span>06 — Hesap yaşın?</span><input name="age" type="number" min="13" max="99" placeholder="Örn. 18" required /></label><fieldset><legend>07 — Günde kaç saat aktif olabilirsin?</legend><div class="radio-group"><label><input name="hours" type="radio" value="1-2" required /><span>1-2</span></label><label><input name="hours" type="radio" value="2-3" /><span>2-3</span></label><label><input name="hours" type="radio" value="4+" /><span>4+</span></label></div></fieldset></div>
+            <button class="button button--primary form-submit" type="submit"><span>Discord'a Başvuruyu Gönder</span><b>↗</b></button>
+            <p id="formFeedback" class="form-feedback" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+
+        <section id="unit" class="unit section-anchor">
+          <div class="unit__main reveal"><div class="section-number">05 / <span>UNIT PROFILE</span></div><div class="eyebrow"><span class="eyebrow__line"></span><span>BİRİMİ DAHA YAKINDAN TANI</span></div><h2>İÇERİDEKİ<br /><em>TEHDİT.</em></h2><p>Beta-1, Vakıf personeline yönelik düşman sızması şüpheleri ve diğer Gruplara olası bilgi sızıntıları üzerinde uzmanlaşmış, yüksek gizlilikli bir görev gücüdür. Kamuya açık tanım bunun ötesindeki operasyon ayrıntılarını açıklamaz.</p></div>
+          <div class="unit__tiles">
+            <article class="unit-tile unit-tile--large reveal"><small>01 / GÖREV TANIMI</small><h3>SIZMA<br />ŞÜPHESİ</h3><p>Vakıf personeli içindeki olası düşman sızmalarına odaklanır.</p><span class="tile-corner">↘</span></article>
+            <article class="unit-tile reveal reveal--late"><small>02 / BİLGİ GÜVENLİĞİ</small><h3>SIZINTI<br />ARAŞTIRMASI</h3><p>Diğer İlgi Gruplarına olası bilgi sızıntıları görev tanımının parçasıdır.</p></article>
+            <article class="unit-tile unit-tile--redacted reveal"><small>03 / GİZLİ DOSYA</small><div class="redaction-bars"><i></i><i></i><i></i></div><p><b>ERİŞİM REDDEDİLDİ</b><br />Clearance 04 gerekli.</p></article>
+            <article class="unit-tile unit-tile--signal reveal reveal--late"><small>04 / SİNYAL</small><div class="signal-bars"><i></i><i></i><i></i><i></i><i></i></div><p>Şifreli ağ sürekli izleniyor.<br /><b>UPLINK STABLE</b></p></article>
+          </div>
+        </section>
+
+        <footer class="footer"><div class="footer__brand"><span class="brand__sigil"><img src="/assets/beta1-cauterizers-logo.webp" alt="" /></span><span><b>BETA-1</b><small>CAUTERIZERS / MTF INTERNAL</small></span></div><p>© SCP FOUNDATION // CLASSIFIED INTERFACE<br />TÜM KAYITLAR ŞİFRELİDİR.</p><a href="#home" data-target="home">YUKARI ÇIK <b>↑</b></a></footer>
+      </main>
+    </div>
+
+    <dialog id="personnelPaper" class="personnel-paper" aria-labelledby="paperTitle">
+      <article class="personnel-paper__sheet">
+        <button class="personnel-paper__close" type="button" aria-label="Kayıt kağıdını kapat">×</button>
+        <div class="personnel-paper__header"><img src="/assets/beta1-cauterizers-logo.webp" alt="" /><span>THE SCP FOUNDATION<br /><b>PERSONNEL RECORD / BETA-1</b></span><strong>GİZLİ</strong></div>
+        <div class="personnel-paper__rule"></div>
+        <p class="personnel-paper__stamp">DOĞRULANMIŞ KAYIT</p>
+        <p class="personnel-paper__label">GÖREV</p><h2 id="paperTitle">BİRİM ŞEFİ</h2>
+        <p class="personnel-paper__label">ROBLOX KULLANICI ADI</p><p id="paperUsername" class="personnel-paper__username">Berke_9801</p>
+        <div class="personnel-paper__redaction"><i></i><i></i><i></i></div>
+        <p class="personnel-paper__label">ROBLOX PROFİL KAYDI</p><a id="paperProfile" class="personnel-paper__profile" href="https://www.roblox.com/tr/users/3491754780/profile" target="_blank" rel="noopener noreferrer">Roblox hesabını aç <span>↗</span></a>
+        <p id="paperProfileUrl" class="personnel-paper__url">roblox.com/tr/users/3491754780/profile</p>
+        <div class="personnel-paper__footer"><span>MTF BETA-1 / NEED-TO-KNOW</span><span>ARCHIVE COPY // ██-01</span></div>
+      </article>
+    </dialog>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
